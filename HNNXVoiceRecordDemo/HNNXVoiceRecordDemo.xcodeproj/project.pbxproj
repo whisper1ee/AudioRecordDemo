@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		637C5A102578828F00DD8C71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 637C5A0F2578828F00DD8C71 /* AppDelegate.m */; };
+		637C5A162578828F00DD8C71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637C5A152578828F00DD8C71 /* ViewController.m */; };
+		637C5A192578828F00DD8C71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637C5A172578828F00DD8C71 /* Main.storyboard */; };
+		637C5A1C2578828F00DD8C71 /* HNNXVoiceRecordDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 637C5A1A2578828F00DD8C71 /* HNNXVoiceRecordDemo.xcdatamodeld */; };
+		637C5A1E2578829200DD8C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637C5A1D2578829200DD8C71 /* Assets.xcassets */; };
+		637C5A212578829200DD8C71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637C5A1F2578829200DD8C71 /* LaunchScreen.storyboard */; };
+		637C5A242578829200DD8C71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 637C5A232578829200DD8C71 /* main.m */; };
+		637C5A2E2578829300DD8C71 /* HNNXVoiceRecordDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 637C5A2D2578829300DD8C71 /* HNNXVoiceRecordDemoTests.m */; };
+		637C5A392578829300DD8C71 /* HNNXVoiceRecordDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 637C5A382578829300DD8C71 /* HNNXVoiceRecordDemoUITests.m */; };
+		637C5A4D2578887100DD8C71 /* testDemo.html in Resources */ = {isa = PBXBuildFile; fileRef = 637C5A4C2578887000DD8C71 /* testDemo.html */; };
+		637C5A5C2578BF6700DD8C71 /* LameTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 637C5A572578BF6700DD8C71 /* LameTool.m */; };
+		637C5A5D2578BF6800DD8C71 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 637C5A592578BF6700DD8C71 /* libmp3lame.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		637C5A2A2578829300DD8C71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 637C5A032578828F00DD8C71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 637C5A0A2578828F00DD8C71;
+			remoteInfo = HNNXVoiceRecordDemo;
+		};
+		637C5A352578829300DD8C71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 637C5A032578828F00DD8C71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 637C5A0A2578828F00DD8C71;
+			remoteInfo = HNNXVoiceRecordDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		637C5A0B2578828F00DD8C71 /* HNNXVoiceRecordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HNNXVoiceRecordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		637C5A0E2578828F00DD8C71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		637C5A0F2578828F00DD8C71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		637C5A142578828F00DD8C71 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		637C5A152578828F00DD8C71 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		637C5A182578828F00DD8C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		637C5A1B2578828F00DD8C71 /* HNNXVoiceRecordDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HNNXVoiceRecordDemo.xcdatamodel; sourceTree = "<group>"; };
+		637C5A1D2578829200DD8C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		637C5A202578829200DD8C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		637C5A222578829200DD8C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637C5A232578829200DD8C71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		637C5A292578829300DD8C71 /* HNNXVoiceRecordDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HNNXVoiceRecordDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		637C5A2D2578829300DD8C71 /* HNNXVoiceRecordDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNNXVoiceRecordDemoTests.m; sourceTree = "<group>"; };
+		637C5A2F2578829300DD8C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637C5A342578829300DD8C71 /* HNNXVoiceRecordDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HNNXVoiceRecordDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		637C5A382578829300DD8C71 /* HNNXVoiceRecordDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNNXVoiceRecordDemoUITests.m; sourceTree = "<group>"; };
+		637C5A3A2578829300DD8C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637C5A4C2578887000DD8C71 /* testDemo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = testDemo.html; sourceTree = "<group>"; };
+		637C5A572578BF6700DD8C71 /* LameTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LameTool.m; sourceTree = "<group>"; };
+		637C5A592578BF6700DD8C71 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		637C5A5A2578BF6700DD8C71 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		637C5A5B2578BF6700DD8C71 /* LameTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LameTool.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		637C5A082578828F00DD8C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637C5A5D2578BF6800DD8C71 /* libmp3lame.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637C5A262578829300DD8C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637C5A312578829300DD8C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		637C5A022578828F00DD8C71 = {
+			isa = PBXGroup;
+			children = (
+				637C5A4C2578887000DD8C71 /* testDemo.html */,
+				637C5A0D2578828F00DD8C71 /* HNNXVoiceRecordDemo */,
+				637C5A2C2578829300DD8C71 /* HNNXVoiceRecordDemoTests */,
+				637C5A372578829300DD8C71 /* HNNXVoiceRecordDemoUITests */,
+				637C5A0C2578828F00DD8C71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		637C5A0C2578828F00DD8C71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				637C5A0B2578828F00DD8C71 /* HNNXVoiceRecordDemo.app */,
+				637C5A292578829300DD8C71 /* HNNXVoiceRecordDemoTests.xctest */,
+				637C5A342578829300DD8C71 /* HNNXVoiceRecordDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		637C5A0D2578828F00DD8C71 /* HNNXVoiceRecordDemo */ = {
+			isa = PBXGroup;
+			children = (
+				637C5A5B2578BF6700DD8C71 /* LameTool.h */,
+				637C5A572578BF6700DD8C71 /* LameTool.m */,
+				637C5A582578BF6700DD8C71 /* lib */,
+				637C5A0E2578828F00DD8C71 /* AppDelegate.h */,
+				637C5A0F2578828F00DD8C71 /* AppDelegate.m */,
+				637C5A142578828F00DD8C71 /* ViewController.h */,
+				637C5A152578828F00DD8C71 /* ViewController.m */,
+				637C5A172578828F00DD8C71 /* Main.storyboard */,
+				637C5A1D2578829200DD8C71 /* Assets.xcassets */,
+				637C5A1F2578829200DD8C71 /* LaunchScreen.storyboard */,
+				637C5A222578829200DD8C71 /* Info.plist */,
+				637C5A232578829200DD8C71 /* main.m */,
+				637C5A1A2578828F00DD8C71 /* HNNXVoiceRecordDemo.xcdatamodeld */,
+			);
+			path = HNNXVoiceRecordDemo;
+			sourceTree = "<group>";
+		};
+		637C5A2C2578829300DD8C71 /* HNNXVoiceRecordDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				637C5A2D2578829300DD8C71 /* HNNXVoiceRecordDemoTests.m */,
+				637C5A2F2578829300DD8C71 /* Info.plist */,
+			);
+			path = HNNXVoiceRecordDemoTests;
+			sourceTree = "<group>";
+		};
+		637C5A372578829300DD8C71 /* HNNXVoiceRecordDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				637C5A382578829300DD8C71 /* HNNXVoiceRecordDemoUITests.m */,
+				637C5A3A2578829300DD8C71 /* Info.plist */,
+			);
+			path = HNNXVoiceRecordDemoUITests;
+			sourceTree = "<group>";
+		};
+		637C5A582578BF6700DD8C71 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				637C5A592578BF6700DD8C71 /* libmp3lame.a */,
+				637C5A5A2578BF6700DD8C71 /* lame.h */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		637C5A0A2578828F00DD8C71 /* HNNXVoiceRecordDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637C5A3D2578829300DD8C71 /* Build configuration list for PBXNativeTarget "HNNXVoiceRecordDemo" */;
+			buildPhases = (
+				637C5A072578828F00DD8C71 /* Sources */,
+				637C5A082578828F00DD8C71 /* Frameworks */,
+				637C5A092578828F00DD8C71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HNNXVoiceRecordDemo;
+			productName = HNNXVoiceRecordDemo;
+			productReference = 637C5A0B2578828F00DD8C71 /* HNNXVoiceRecordDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		637C5A282578829300DD8C71 /* HNNXVoiceRecordDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637C5A402578829300DD8C71 /* Build configuration list for PBXNativeTarget "HNNXVoiceRecordDemoTests" */;
+			buildPhases = (
+				637C5A252578829300DD8C71 /* Sources */,
+				637C5A262578829300DD8C71 /* Frameworks */,
+				637C5A272578829300DD8C71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				637C5A2B2578829300DD8C71 /* PBXTargetDependency */,
+			);
+			name = HNNXVoiceRecordDemoTests;
+			productName = HNNXVoiceRecordDemoTests;
+			productReference = 637C5A292578829300DD8C71 /* HNNXVoiceRecordDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		637C5A332578829300DD8C71 /* HNNXVoiceRecordDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637C5A432578829300DD8C71 /* Build configuration list for PBXNativeTarget "HNNXVoiceRecordDemoUITests" */;
+			buildPhases = (
+				637C5A302578829300DD8C71 /* Sources */,
+				637C5A312578829300DD8C71 /* Frameworks */,
+				637C5A322578829300DD8C71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				637C5A362578829300DD8C71 /* PBXTargetDependency */,
+			);
+			name = HNNXVoiceRecordDemoUITests;
+			productName = HNNXVoiceRecordDemoUITests;
+			productReference = 637C5A342578829300DD8C71 /* HNNXVoiceRecordDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		637C5A032578828F00DD8C71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					637C5A0A2578828F00DD8C71 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					637C5A282578829300DD8C71 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 637C5A0A2578828F00DD8C71;
+					};
+					637C5A332578829300DD8C71 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 637C5A0A2578828F00DD8C71;
+					};
+				};
+			};
+			buildConfigurationList = 637C5A062578828F00DD8C71 /* Build configuration list for PBXProject "HNNXVoiceRecordDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 637C5A022578828F00DD8C71;
+			productRefGroup = 637C5A0C2578828F00DD8C71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				637C5A0A2578828F00DD8C71 /* HNNXVoiceRecordDemo */,
+				637C5A282578829300DD8C71 /* HNNXVoiceRecordDemoTests */,
+				637C5A332578829300DD8C71 /* HNNXVoiceRecordDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		637C5A092578828F00DD8C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637C5A212578829200DD8C71 /* LaunchScreen.storyboard in Resources */,
+				637C5A4D2578887100DD8C71 /* testDemo.html in Resources */,
+				637C5A1E2578829200DD8C71 /* Assets.xcassets in Resources */,
+				637C5A192578828F00DD8C71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637C5A272578829300DD8C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637C5A322578829300DD8C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		637C5A072578828F00DD8C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637C5A5C2578BF6700DD8C71 /* LameTool.m in Sources */,
+				637C5A242578829200DD8C71 /* main.m in Sources */,
+				637C5A1C2578828F00DD8C71 /* HNNXVoiceRecordDemo.xcdatamodeld in Sources */,
+				637C5A162578828F00DD8C71 /* ViewController.m in Sources */,
+				637C5A102578828F00DD8C71 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637C5A252578829300DD8C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637C5A2E2578829300DD8C71 /* HNNXVoiceRecordDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637C5A302578829300DD8C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637C5A392578829300DD8C71 /* HNNXVoiceRecordDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		637C5A2B2578829300DD8C71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 637C5A0A2578828F00DD8C71 /* HNNXVoiceRecordDemo */;
+			targetProxy = 637C5A2A2578829300DD8C71 /* PBXContainerItemProxy */;
+		};
+		637C5A362578829300DD8C71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 637C5A0A2578828F00DD8C71 /* HNNXVoiceRecordDemo */;
+			targetProxy = 637C5A352578829300DD8C71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		637C5A172578828F00DD8C71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				637C5A182578828F00DD8C71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		637C5A1F2578829200DD8C71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				637C5A202578829200DD8C71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		637C5A3B2578829300DD8C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		637C5A3C2578829300DD8C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		637C5A3E2578829300DD8C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EF94J77DAH;
+				INFOPLIST_FILE = HNNXVoiceRecordDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HNNXVoiceRecordDemo/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = whisper.HNNXVoiceRecordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		637C5A3F2578829300DD8C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EF94J77DAH;
+				INFOPLIST_FILE = HNNXVoiceRecordDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HNNXVoiceRecordDemo/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = whisper.HNNXVoiceRecordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		637C5A412578829300DD8C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EF94J77DAH;
+				INFOPLIST_FILE = HNNXVoiceRecordDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = whisper.HNNXVoiceRecordDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HNNXVoiceRecordDemo.app/HNNXVoiceRecordDemo";
+			};
+			name = Debug;
+		};
+		637C5A422578829300DD8C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EF94J77DAH;
+				INFOPLIST_FILE = HNNXVoiceRecordDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = whisper.HNNXVoiceRecordDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HNNXVoiceRecordDemo.app/HNNXVoiceRecordDemo";
+			};
+			name = Release;
+		};
+		637C5A442578829300DD8C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EF94J77DAH;
+				INFOPLIST_FILE = HNNXVoiceRecordDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = whisper.HNNXVoiceRecordDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HNNXVoiceRecordDemo;
+			};
+			name = Debug;
+		};
+		637C5A452578829300DD8C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EF94J77DAH;
+				INFOPLIST_FILE = HNNXVoiceRecordDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = whisper.HNNXVoiceRecordDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HNNXVoiceRecordDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		637C5A062578828F00DD8C71 /* Build configuration list for PBXProject "HNNXVoiceRecordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637C5A3B2578829300DD8C71 /* Debug */,
+				637C5A3C2578829300DD8C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637C5A3D2578829300DD8C71 /* Build configuration list for PBXNativeTarget "HNNXVoiceRecordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637C5A3E2578829300DD8C71 /* Debug */,
+				637C5A3F2578829300DD8C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637C5A402578829300DD8C71 /* Build configuration list for PBXNativeTarget "HNNXVoiceRecordDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637C5A412578829300DD8C71 /* Debug */,
+				637C5A422578829300DD8C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637C5A432578829300DD8C71 /* Build configuration list for PBXNativeTarget "HNNXVoiceRecordDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637C5A442578829300DD8C71 /* Debug */,
+				637C5A452578829300DD8C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		637C5A1A2578828F00DD8C71 /* HNNXVoiceRecordDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				637C5A1B2578828F00DD8C71 /* HNNXVoiceRecordDemo.xcdatamodel */,
+			);
+			currentVersion = 637C5A1B2578828F00DD8C71 /* HNNXVoiceRecordDemo.xcdatamodel */;
+			path = HNNXVoiceRecordDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 637C5A032578828F00DD8C71 /* Project object */;
+}

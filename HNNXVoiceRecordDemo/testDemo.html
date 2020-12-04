@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,minimum-scale=1.0,maximum=scale=1.0">
+    <title>海南农信</title>
+
+    <script>
+        function startRecord(){
+            alert("开始录音");
+            window.location.href='wc://jsbridge/startRecord?{"sampleRate":"11025.0","bitRate":"16","mediaType":"mp3"}'
+        }
+        function endRecord(){
+            alert("结束录音");
+            window.location.href='wc://jsbridge/stopRecord?{"mediaName":"uuid"}'
+        }
+        function playRecord(){
+            alert("播放录音");
+            window.location.href='wc://jsbridge/playRecord?{"mediaName":"uuid"}'
+        }
+        function recordOnComplete(result){
+            console.log("-----"+result);
+            alert("-----"+result);
+        }
+    </script>
+
+  </head>
+  <body>
+    <div style="width:100%;height:100%;background-color:white;display:flex;justify-content:center;margin:calc((100vh - 94px) / 2) 0px 0px 0px;">
+        <div onclick="startRecord()" style="width: 100px;height: 50px;background-color: red;line-height: 50px;text-align: center;margin-right: 5px;color: #fff">开始录音</div>
+        <div onclick="endRecord()" style="width: 100px;height: 50px;background-color: green;line-height: 50px;text-align: center;margin-left: 5px;margin-right: 5px;color: #fff">结束录音</div>
+        <div onclick="playRecord()" style="width: 100px;height: 50px;background-color: blue;line-height: 50px;text-align: center;margin-left: 5px;color: #fff">播放录音</div>
+    </div>
+  </body>
+</html>
